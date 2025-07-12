@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.buy-now-button,
+.submit-button {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    background-color: #d63384;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.buy-now-button:hover,
+.submit-button:hover {
+    background-color: #fce4ec;
+    color: #d63384;
+    border: 1px solid #d63384;
+}
+
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    padding: 10px;
+}
+
+.dialog-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #f8bbd0;
+    background-color: #fff0f5;
+    color: #c2185b;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-field::placeholder {
+    color: #f48fb1;
+}
+
+@media (max-width: 480px) {
+    .dialog-box {
+        padding: 15px;
+    }
+
+    .submit-button,
+    .buy-now-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .input-field {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .dialog-box {
+        padding: 10px;
+    }
+
+    .submit-button {
+        padding: 10px;
+        font-size: 13px;
+    }
+}

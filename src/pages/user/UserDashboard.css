@@ -1,0 +1,139 @@
+.user-dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-info-card {
+    background-color: #ffe4e6;
+    border: 1px solid #fed7e2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-image-wrapper img {
+    width: 100px;
+    height: 100px;
+}
+
+.user-info-text h1 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.order-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.order-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fed7e2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.order-left {
+    background-color: #ffe4e6;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.order-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.order-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.order-status {
+    color: #065f46;
+    text-transform: capitalize;
+}
+
+.order-right {
+    padding: 20px;
+    background-color: white;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid #e5e7eb;
+    padding: 20px 0;
+}
+
+.product-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.product-category,
+.product-quantity {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111827;
+}
+
+@media screen and (min-width: 768px) {
+    .order-card {
+        flex-direction: row;
+    }
+
+    .order-left {
+        max-width: 250px;
+        border-right: 1px solid #fed7e2;
+    }
+
+    .product-item {
+        border-top: none;
+    }
+}

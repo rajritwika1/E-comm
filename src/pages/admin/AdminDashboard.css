@@ -1,0 +1,99 @@
+.admin-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.admin-top-section {
+  text-align: center;
+  background-color: #fcdde2;
+  border: 1px solid #fcdde2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.admin-title {
+  color: #ec4899;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.admin-mid-section {
+  background-color: #ffe4e6;
+  border: 1px solid #fcdde2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-profile img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.admin-tab-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.admin-tab {
+  background: #ffe4e6;
+  border: 1px solid #fcdde2;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ec4899;
+  transition: 0.3s;
+}
+
+.admin-tab:hover {
+  background-color: #fce7ef;
+}
+
+.admin-tab.react-tabs__tab--selected {
+  background-color: #fbcfe8;
+  border-bottom: 2px solid #ec4899;
+}
+
+.admin-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.admin-card {
+  background-color: #ffe4e6;
+  border: 1px solid #fcdde2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.admin-card:hover {
+  background-color: #fce7ef;
+}
+
+.admin-icon {
+  width: 50px;
+  height: 50px;
+  color: #ec4899;
+  margin-bottom: 10px;
+}
+
+.admin-card h2 {
+  font-size: 28px;
+  color: #ec4899;
+  margin: 10px 0;
+}
+
+.admin-card p {
+  color: #ec4899;
+  font-weight: bold;
+}

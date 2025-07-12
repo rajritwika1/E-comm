@@ -1,0 +1,112 @@
+.bestsellers {
+  margin-top: 2.5rem; /* mt-10 */
+}
+
+.bestsellers h1.heading {
+  text-align: center;
+  margin-bottom: 1.25rem; /* mb-5 */
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+}
+
+/* Section Wrapper */
+.bestsellers-section {
+  color: #4b5563; /* text-gray-600 */
+  font-family: sans-serif;
+}
+
+/* Container */
+.bestsellers-container {
+  padding: 1.25rem; /* px-5, py-5 */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Flex grid */
+.bestsellers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem; /* -m-4 (neg margin to balance inner padding) */
+}
+
+/* Each Card Wrapper */
+.bestsellers-card-wrapper {
+  padding: 1rem; /* p-4 */
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bestsellers-card-wrapper {
+    width: 25%; /* md:w-1/4 */
+  }
+}
+
+/* Card */
+.bestsellers-card {
+  height: 100%;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 1rem; /* rounded-xl */
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* shadow-md */
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Image */
+.bestsellers-card img {
+  width: 100%;
+  height: 24rem; /* h-96 = 384px */
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .bestsellers-card img {
+    height: 20rem; /* lg:h-80 = 320px */
+  }
+}
+
+/* Card Body */
+.bestsellers-content {
+  padding: 1.5rem;
+}
+
+/* Subheading */
+.bestsellers-subtitle {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #9ca3af; /* text-gray-400 */
+  margin-bottom: 0.5rem;
+}
+
+/* Title */
+.bestsellers-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827; /* text-gray-900 */
+  margin-bottom: 0.75rem;
+}
+
+/* Price */
+.bestsellers-price {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+/* Button */
+.bestsellers-button {
+  background-color: #ec4899; /* bg-pink-500 */
+  color: white;
+  padding: 4px;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.bestsellers-button:hover {
+  background-color: #db2777; /* hover:bg-pink-600 */
+}

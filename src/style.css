@@ -1,0 +1,13 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #ef4444; /* red */
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 18px;
+}

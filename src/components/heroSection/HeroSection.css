@@ -1,0 +1,14 @@
+/* HeroSection.css */
+.hero-img {
+  height: auto;
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .hero-img {
+    height: auto;
+  }
+}

@@ -1,0 +1,77 @@
+.user-detail {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Header */
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ec4899; /* pink-400 */
+}
+
+/* Table Wrapper */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Table Styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  border: 1px solid #ffe4e6; /* pink-100 */
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 24px;
+  border-left: 1px solid #ffe4e6;
+  border-top: 1px solid #ffe4e6;
+  text-align: left;
+  color: #334155;
+  font-size: 15px;
+}
+
+.user-table th {
+  background-color: #f1f5f9; /* slate-100 */
+  font-weight: bold;
+}
+
+.user-table td {
+  color: #475569; /* slate-500 */
+}
+
+/* Actions */
+.action-edit {
+  color: #22c55e; /* green-500 */
+  cursor: pointer;
+}
+
+.action-delete {
+  color: #ef4444; /* red-500 */
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .user-title {
+    font-size: 18px;
+  }
+
+  .user-table th,
+  .user-table td {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}

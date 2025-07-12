@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #db2777; /* Tailwind pink-600 */
+  position: sticky;
+  top: 0;
+}
+
+/* Main nav container */
+.nav-container {
+  padding: 12px 0;
+}
+
+@media (min-width: 1024px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+  }
+}
+
+/* Left heading */
+.nav-left h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+    text-decoration: none;
+
+}
+
+/* Nav links */
+.nav-list {
+  display: flex;
+  gap: 12px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0 20px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  list-style: none;
+    text-decoration: none;
+
+
+}
+.brand-link {
+  text-decoration: none;
+  color: white; /* or whatever color you're using */
+}
+.nav-list a {
+  text-decoration: none;
+  color: white; /* or whatever color you're using */
+}
+@media (min-width: 1024px) {
+  .nav-list {
+    margin-bottom: 0;
+    
+  }
+}

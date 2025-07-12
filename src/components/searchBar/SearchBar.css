@@ -1,0 +1,61 @@
+/* SearchBar.css */
+
+.searchbar-container {
+  position: relative;
+}
+
+/* Input wrapper */
+.searchbar-input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Input field */
+.searchbar-input {
+  background-color: #e5e7eb;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 384px;
+  outline: none;
+}
+
+.searchbar-input::placeholder {
+  color: #9ca3af;
+}
+
+/* Dropdown wrapper */
+.searchbar-dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Dropdown content */
+.searchbar-dropdown {
+  position: absolute;
+  background-color: #e5e7eb;
+  width: 384px;
+  margin: 0.25rem 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  z-index: 50;
+}
+
+/* Dropdown item */
+.searchbar-item {
+  padding: 0.5rem;
+}
+
+.searchbar-item-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.searchbar-item-inner img {
+  width: 2.5rem;
+}
+
+.no-result-img {
+  width: 5rem;
+}
