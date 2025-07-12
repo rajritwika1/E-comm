@@ -1,12 +1,64 @@
-# React + Vite
+# 🛒 E-Commerce Web App
+A responsive and modern e-commerce web application built with React and Firebase, featuring product browsing, user authentication, shopping cart, and admin controls.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+-  🔐 User Authentication (Firebase)
+-  🛍️ Product Browsing by Categories
+-  📦 Add to Cart & Buy Now Functionality
+-  🔍 Search Functionality
+-  🧾 Order Tracking System
+-  🧑‍💼 Admin Dashboard for Managing Products, Users, and Orders
+-  📱 Responsive Design (Mobile & Desktop)
+-  📤 Firebase Storage for Product Images
+-  📃 Firebase Firestore as Backend Database
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+-  Frontend: React (JSX, Hooks, Context API)
+-  Backend: Firebase Firestore & Firebase Authentication
+-  Storage: Firebase Storage (for images)
+-  Package Manager: npm (Node.js runtime)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
 
-## Expanding the ESLint configuration
+Ensure you have Node.js and npm installed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/rajritwika1/e-comm.git
+<pre><code>
+  cd e-comm
+ npm install
+ npm start
+</code></pre> 
+
+## 🔑 Firebase Setup
+- Create a Firebase project.
+- Enable Authentication (Email/Password or Google).
+- Set up Firebase Firestore and Storage.
+- Replace Firebase configuration in your project with your own:
+
+<pre> <code> // firebaseConfig.js
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+};
+</code></pre>
+## 📸 Screenshots
+<img width="1904" height="877" alt="Screenshot 2025-07-12 232924" src="https://github.com/user-attachments/assets/04dae7db-0ad7-48cf-ace8-dd497f0c2fd6" />
+
+<img width="1900" height="864" alt="Screenshot 2025-07-12 232953" src="https://github.com/user-attachments/assets/7752abb4-018c-4e52-bb11-ce99c017b58d" />
+<img width="1908" height="853" alt="Screenshot 2025-07-12 233008" src="https://github.com/user-attachments/assets/3cb2140a-2db5-401d-b7f2-8f1ca52f6897" />
+<img width="1903" height="871" alt="Screenshot 2025-07-12 233031" src="https://github.com/user-attachments/assets/96efa68d-1529-4e53-977c-70dff65fd801" />
+<img width="1907" height="856" alt="Screenshot 2025-07-12 233113" src="https://github.com/user-attachments/assets/58140c82-b9d3-4c4f-bbfe-43fac6d6f529" />
+
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+
+
+
+
