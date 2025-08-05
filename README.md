@@ -56,9 +56,25 @@ const firebaseConfig = {
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is proprietary. You may view the application via the live link, but reuse of the source code is not permitted without permission.
 
+### ✅ What to Do Next
 
+1. **Save it as `README.md`** and put it in your project root or GitHub repo.
+2. **Upload screenshots**, if available.
+3. Let me know if you'd like:
+   - A version for **LinkedIn post**
+   - A **short project description** for your portfolio site
+   - A **PDF case study**
+
+Would you like help adding badges (e.g., Firebase, Hostinger, Live Demo, etc.) at the top?
+
+## 🙋‍♂️ Author
+
+**Role**: Freelance Full-Stack Developer  
+**Email**: rajritwika181@gmail.com
+
+For queries, collaborations, or freelance opportunities, feel free to reach out.
 
 
 
